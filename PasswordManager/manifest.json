@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "PasswordManager",
+    
+    "version": "1.0.0",
+
+    "description": "Chrome plugin for *pass* the standard unix password manager.",
+
+    "author": "Subramani",
+
+    "icons": {
+      "16": "icons/pass16.png",
+      "48": "icons/pass48.png",
+      "128": "icons/pass128.png"
+    },
+
+    "browser_action": {
+      "default_icon": {
+        "19": "icons/pass19.png",
+        "38": "icons/pass38.png",
+        "114": "icons/pass114.png"
+      },
+      "default_title": "password",
+      "default_popup": "popup.html" 
+    },
+
+    "options_page": "options.html",
+
+    "permissions": ["storage"]
+
+  }

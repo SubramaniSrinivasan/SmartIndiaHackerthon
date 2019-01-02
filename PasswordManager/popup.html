@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <title>PasswordManager</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="popup.js"></script>
+    <style>
+      #submit{
+        display: none;
+        margin-bottom: 5px;
+      }
+      .container{
+        padding-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body class="container">
+    <div class="container">
+      <h3>PasswordManager</h3>
+      <div class="Jumbotron">
+        <div id="test">
+
+        </div>
+        <div class="table" id="display">
+
+        </div>
+        <button class="btn btn-primary" id="submit">Submit<br></button>
+      </div>  
+      <button class="btn btn-success" id="show">Show Passwords</button><br><br>
+      <button class="btn btn-success" id="save">Save A New Password</button>
+    </div>
+  </body>
+</html>
